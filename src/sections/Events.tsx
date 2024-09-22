@@ -23,7 +23,7 @@ const events = [
   },
   {
     title: "Workshop - by Brad Frost",
-    description: "Creating and Maintaining Successful Design Systems.",
+    description: "Design Systems.",
     photo: bradFrost,
   },
   {
@@ -38,7 +38,7 @@ const events = [
   },
   {
     title: "Workshop - by Ryan Townsend",
-    description: "The Secrets of Web Performance.",
+    description: "Web Performance.",
     photo: ryanTownsend,
   },
 ];
@@ -52,16 +52,16 @@ export const EventSection = () => {
           title="Inspiration Through Action"
           description="  Here, I share the moments that have left a lasting impression on both my career and personal development."
         />
-        <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
-          <div className="flex gap-8 pr-8 flex-none">
+        <div className="flex mt-12 lg:mt-20  overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
+          <div className="flex gap-8 pr-8 items-start">
             {[...new Array(2)].fill(0).map((_, index) => (
               <Fragment key={index}>
                 {events.map((events) => (
                   <Card
                     key={events.title}
-                    className=" max-w-xs md:max-w-md p-6 md:p-8"
+                    className="flex max-w-xs md:max-w-md p-6 md:p-8 mb-0"
                   >
-                    <div className="flex gap-4">
+                    <div>
                       <div>
                         <div className="font-serif text-xl md:text-2xl mt-2 md:mt-4">
                           {events.title}
@@ -72,7 +72,7 @@ export const EventSection = () => {
                         <Image
                           src={events.photo}
                           alt={events.title}
-                          className=" mt-4"
+                          className=" mt-4 block w-full h-auto"
                         />
                       </div>
                     </div>
@@ -87,49 +87,3 @@ export const EventSection = () => {
   );
 };
 
-// export const EventSection = () => {
-//   return (
-//     <div className="py-16 lg:py-24">
-//       <div className="container">
-//         <SectionHeader
-//           eyebrow="Experiences That Inspire Me"
-//           title="Inspiration Through Action"
-//           description="  Here, I share the moments that have left a lasting impression on both my career and personal development."
-//         />
-//         <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
-//           <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">
-//             {[...new Array(2)].fill(0).map((_, index) => (
-//               <Fragment key={index}>
-//                 {events.map((events) => (
-//                   <Card
-//                     key={events.title}
-//                     className="max-w-xs md:max-w-md p-6 md:p-8 hover:-rotate-3 transition duration-300"
-//                   >
-//                     <div className="flex gap-4 items-center">
-//                       <div className="size-14 bg-gray-700 inline-flex items-center justify-center rounded-full flex-shrink-0">
-//                         <Image
-//                           src={events.photo}
-//                           alt={events.title}
-//                           className="max-h-full"
-//                         />
-//                       </div>
-//                       <div>
-//                         <div className="font-semibold">{events.title}</div>
-//                         <div className="text-sm text-white/40">
-//                           {events.place}
-//                         </div>
-//                       </div>
-//                     </div>
-//                     <p className="mt-4 md:mt-6 text-sm md:text-base">
-//                       {events.description}
-//                     </p>
-//                   </Card>
-//                 ))}
-//               </Fragment>
-//             ))}
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
