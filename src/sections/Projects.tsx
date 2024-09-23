@@ -1,10 +1,9 @@
-import kuna from "@/assets/images/kuna.png";
-import exness from "@/assets/images/Exness.png";
-import rozetka from "@/assets/images/rozetka.png";
+import kuna from "@/assets/images/kuna.webp";
+import exness from "@/assets/images/exness.webp";
+import rozetka from "@/assets/images/rozetka.webp";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrorwUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
