@@ -7,9 +7,6 @@ const nextConfig = {
   },
 
   webpack: (config) => {
-    // Add the alias for '@' to resolve to 'src'
-    // config.resolve.alias['@'] = path.resolve(__dirname, 'src');
-
     // Find the existing rule that handles .svg files
     const fileLoaderRule = config.module.rules.find((rule) =>
       rule.test?.test?.('.svg')
