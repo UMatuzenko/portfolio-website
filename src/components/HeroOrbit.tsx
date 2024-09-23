@@ -8,7 +8,6 @@ export const HeroOrbit = ({
   shouldOrbit = false,
   orbitDuration,
   shouldSpin = false,
-  spinDuration,
 }: PropsWithChildren<{
   size: number;
   rotation: number;

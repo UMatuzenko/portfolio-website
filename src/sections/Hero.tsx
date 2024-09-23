@@ -76,7 +76,7 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto ">
           <h1 className="font-serif text-2xl md:text-4xl text-center mt-8 tracking-wide">
-            I'm Julia, a Design-Driven Frontend Developer
+            I&apos;m Julia, a Design-Driven Frontend Developer
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
           I combine design thinking and frontend skills to create intuitive and engaging user experiences!
@@ -94,7 +94,7 @@ export const HeroSection = () => {
               <div className="absolute inset-0 shadow-[0_0_10px_rgb(140,69,255,.7)_inset] rounded-xl"></div>
             </div>
             <span>👋</span>
-            <span className="font-semibold">Let's Connect</span>
+            <span className="font-semibold">Let&apos;s Connect</span>
           </button>
         </div>
       </div>
