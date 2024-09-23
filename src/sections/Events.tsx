@@ -23,7 +23,7 @@ const events = [
   },
   {
     title: "Workshop - by Brad Frost",
-    description: "Design Systems.",
+    description: "Design Systems",
     photo: bradFrost,
   },
   {
@@ -38,7 +38,7 @@ const events = [
   },
   {
     title: "Workshop - by Ryan Townsend",
-    description: "Web Performance.",
+    description: "Web Performance",
     photo: ryanTownsend,
   },
 ];
@@ -52,14 +52,14 @@ export const EventSection = () => {
           title="Inspiration Through Action"
           description="  Here, I share the moments that have left a lasting impression on both my career and personal development."
         />
-        <div className="flex mt-12 lg:mt-20  overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
-          <div className="flex gap-8 pr-8 items-start">
+        <div className="flex mt-12 lg:mt-20  overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
+          <div className="flex gap-8 pr-8 items-start flex-none animate-move-left [animation-duration:50s] hover:[animation-play-state:paused]">
             {[...new Array(2)].fill(0).map((_, index) => (
               <Fragment key={index}>
                 {events.map((events) => (
                   <Card
                     key={events.title}
-                    className="flex max-w-xs md:max-w-md p-6 md:p-8 mb-0"
+                    className="flex max-w-xs md:max-w-md p-6 md:p-8 mb-0 hover:-rotate-3 transition duration-300"
                   >
                     <div>
                       <div>
