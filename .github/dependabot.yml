@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Use "yarn" if you're using Yarn
+    directory: "/" # Location of package manifests (usually the root for npm/yarn)
+    schedule:
+      interval: "weekly" # How often to check for updates (e.g., "daily", "weekly", "monthly")
