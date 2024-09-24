@@ -159,7 +159,7 @@ export const AboutSection = () => {
               <Image
                 src={mapImage}
                 alt="map"
-                className="h-full w-full object-cover object-left-top"
+                className="h-full w-full object-cover object-left-top relative -z-1"
               />
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full  after:content-[''] after:absolute after:inset-0 after:outline efter:outline-2 after:outline-offset-2 after:rounded-full after:outline-gray-950/30">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#8c45ff] to-sky-400 -z-20 animate-ping [animation-duration:2s]"></div>
