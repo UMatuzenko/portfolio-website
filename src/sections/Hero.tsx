@@ -87,7 +87,7 @@ export const HeroSection = () => {
             <span className="font-semibold">Explore My Work</span>
             <ArrowDown className="size-4" />
           </button>
-          <button className="relative inline-flex items-center gap-2 bg-gradient-to-b from-[#190d2e] to-[#4a208a] shadow-[0px_0px_12px_#8c45ff] h-12 px-6 rounded-xl">
+          <a href="mailto:umatuzenko@gmail.com" className="relative inline-flex items-center gap-2 bg-gradient-to-b from-[#190d2e] to-[#4a208a] shadow-[0px_0px_12px_#8c45ff] h-12 px-6 rounded-xl">
             <div className="absolute inset-0">
               <div className="absolute border border-white/15 rounded-xl inset-0 [mask-image:linear-gradient(to_bottom,black,transparent)]"></div>
               <div className="absolute rounded-xl border border-white/30 [mask-image:linear-gradient(to_top,black,transparent)] inset-0"></div>
@@ -95,7 +95,7 @@ export const HeroSection = () => {
             </div>
             <span>👋</span>
             <span className="font-semibold">Let&apos;s Connect</span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
