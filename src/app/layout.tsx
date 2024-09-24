@@ -12,7 +12,7 @@ const calistoga = Calistoga({
 
 export const metadata: Metadata = {
   title: "Julia's Portfolio",
-  description: "My personal portfolio website, built using Next.js, Tailwind CSS, and CSS Animations to showcase my work, skills, and projects.",
+  description: "My portfolio website, built using Next.js, Tailwind CSS, and CSS Animations.",
 };
 
 export default function RootLayout({

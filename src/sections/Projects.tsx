@@ -3,7 +3,7 @@ import exness from "@/assets/images/exness.webp";
 import rozetka from "@/assets/images/rozetka.webp";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
-import ArrorwUpRightIcon from "@/assets/icons/arrow-up-right.svg";
+import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
                         key={result.title}
                         className="flex gap-2 text-sm md:text-base text-white/50"
                       >
-                        <CheckCircleIcon className="size-5 md:size-6" />
+                        <CheckCircleIcon className="flex-none size-5 md:size-6" />
                         <span>{result.title}</span>
                       </li>
                     ))}
@@ -108,7 +108,7 @@ export const ProjectsSection = () => {
                   <a href={project.link}>
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
                       <span>Visit Live Site </span>
-                      <ArrorwUpRightIcon className="size-4" />
+                      <ArrowUpRightIcon className="size-4" />
                     </button>
                   </a>
                 </div>
