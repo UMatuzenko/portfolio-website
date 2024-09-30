@@ -10,17 +10,21 @@ import { Card } from "@/components/Card";
 const portfolioProjects = [
   {
     company: "Kuna",
-    year: "Jun 2023 -",
-    title: "Crypto Financial Platform",
+    year: "2021 - Present",
+    title: "Fintech",
     results: [
       {
         title:
-          "Built analytics to track key metrics, driving data-based decisions and feature prioritization.",
+          "Migrated analytics from Google to Amplitude and improved the details of existing tracking events;",
       },
-      { title: "Increased user retention by 15% through UI/UX improvements." },
+      { title: "Enhanced the Design System for various platforms to ensure accessibility and include digital assistance features;" },
       {
         title:
-          "Improved landing page performance with Next.js, cutting load times by 20%.",
+          "Contributed to landing page optimization through redesign and Next.js, reducing load times by up to 20% and improving core metrics;",
+      },
+      {
+        title:
+          "Increased UI testing coverage and scenarios using Cypress and Playwright;",
       },
     ],
     link: "https://kuna.io/en",
@@ -28,7 +32,7 @@ const portfolioProjects = [
   },
   {
     company: "Exness",
-    year: "2019 - 2022",
+    year: "2019 - 2021",
     title: "Financial Services",
     results: [
       {
@@ -49,15 +53,15 @@ const portfolioProjects = [
   },
   {
     company: "Rozetka",
-    year: "2015 - 2018",
+    year: "2015 - 2017",
     title: "E-Commerce Platform",
     results: [
-      { title: "Coded in HTML/SCSS and performed code reviews." },
+      { title: "Aligned design for the mobile apps according to the main company’s web platform;" },
       {
         title:
-          "Improved checkout process to reduce shopping cart abandonment by 15%",
+          "Redesigned existing Android app from an iOS-like design to Google’s Material Design;",
       },
-      { title: "Created clickable prototypes to test user scenarios." },
+      { title: "Improved checkout process user journey to reduce shopping cart abandonment rates by 15%;" },
     ],
     link: "https://rozetka.com.ua",
     image: rozetka,
