@@ -76,10 +76,10 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto ">
           <h1 className="font-serif text-2xl md:text-4xl text-center mt-8 tracking-wide">
-            I&apos;m Julia, a Design-Driven Frontend Developer
+            I&apos;m Julia, a Front-end Developer with UX/UI Expertise
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-          I combine design thinking and frontend skills to create intuitive and engaging user experiences!
+          I built this portfolio using Next.js, Tailwind CSS, and CSS Animations to showcase my work, skills, and projects
           </p>
         </div>
         <div className="flex flex-col  md:flex-row justify-center items-center mt-8 gap-4">
